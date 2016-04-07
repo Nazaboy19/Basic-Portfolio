@@ -1,22 +1,19 @@
-/* 
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this css file and the HTML to see how things line up. 
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
+
 
 body {
-	margin: 0;
-	padding: 0;
-	background: #efeee7;
+	margin: 90;
+	padding: 90;
+	background: #4aaaa5;
 	font-size: 18px;
 	line-height: 150%;
 	font-family: "Georgia",Times New Roman,Times,serif;
 	color: #333333;
 }
 header {
-	background: #d21034;
+	background: #ffffff;
+	border-color: #cccccc;
 }
- /*h1 {
+ h1 {
 	background: #333333;
 	padding: 20px 0;
 	color: #eee;
@@ -24,17 +21,19 @@ header {
 	font-size: 28px;
 	text-align: center;
 	margin-bottom: 20px;
+	font-color:#777777;
 }
-*/
 h2 {
 	font-size: 24px;
+	float: middle;
 }
 a {
 	color: #d21034;
 }
+
 .container {
 	width: 1024px;
-	margin: 0 auto;
+	margin: 90 auto;
 }
 #main-bio,
 #contact-info,
@@ -51,4 +50,74 @@ a {
 	width: 200px;
 	height: 200px;
 	margin-right: 20px;
+
+}
+#Cotainer{
+	width: 400px;
+}
+#Header{
+	border-color: #cccccc;
+	background-color: #ffffff;
+
+}
+#footer{
+	background-color: #666;
+	clear: both;
+	border-top:5px solid#3399999;
+
+}
+#contact{
+	float: right;
+	width: 100px;
+	height: 60px;
+}
+#Stickyfooter{
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; 
+	height: 100%;
+	margin: 0 auto -155px; 
+}
+.footer, .push {
+	height: 155px; 
+
+#About{
+	float:right;
+	background-color: #666;
+	clear: both;
+	border-top:5px solid#3399999;
+}
+#Portfolio{
+	float: right;
+	background-color: #666;
+	clear: both;
+	border-top:5px solid#3399999;
+}
+#Contact{
+	float: right;
+	background-color: #666;
+	clear: both;
+	border-top:5px solid#3399999;
+}
+#foot{
+	clear: both;
+	float: bottom;
+	background: #666;
+	border-top:5px solid #339999;
+	padding: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size:100%;
+	font: inherit;
+	
+}
+#content{
+	clear: both;
+	overflow:auto;
+	background-image:url(http://previews.123rf.com/images/seksan44/seksan441405/seksan44140500102/28022626-Sandpaper-paper-texture-background-Stock-Photo.jpg)
 }
