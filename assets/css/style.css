@@ -213,4 +213,74 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
-@media screen and (max-width: 980px,768px,640px)
+
+@-ms-viewport{
+  width: device-width;
+}
+@media screen and (max-width: 640px) {
+	header{
+		position:static;
+
+	}
+	.main-section{
+		width:100%;
+		margin-left:30%;
+	}
+	.sidebar{
+
+	}
+	#logo{
+		margin-left:40%;
+	}
+	nav{
+		margin-right:30%;
+	}
+	.auth-image{
+		width:60%;
+		margin-bottom:30%;	
+	}
+
+	
+}
+
+@media screen and (max-width:768px){
+	.main-section{
+		width:100%;
+		margin-left:40%;
+	}
+	.sidebar{
+
+	}
+	#logo{
+		margin-left:40%;
+	}
+	nav{
+		margin-right:40%;
+	}
+	.auth-image{
+		width:60%;
+		margin-bottom:40%;	
+	}
+}
+
+@media screen and (max-width:980px){
+.main-section{
+		width:100%;
+		margin-left:50%;
+	}
+	.sidebar{
+
+	}
+	#logo{
+		margin-left:50%;
+	}
+	nav{
+		margin-right:50%;
+	}
+	.auth-image{
+		width:60%;
+		margin-bottom:50%;	
+	}
+
+
+}
